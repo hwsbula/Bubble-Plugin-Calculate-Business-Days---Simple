@@ -3,14 +3,14 @@
     "display": "Add business days",
     "fields": {
         "AAD": {
-            "caption": "initial_date",
+            "caption": "Date to start from",
             "editor": "DynamicValue",
-            "name": "initial_date",
+            "name": "start_date",
             "rank": 0,
             "value": "date"
         },
         "AAE": {
-            "caption": "business_days",
+            "caption": "Business days to add to start date",
             "editor": "DynamicValue",
             "name": "business_days",
             "rank": 1,
