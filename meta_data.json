@@ -1,0 +1,11 @@
+{
+    "categories": {
+        "0": "calendar"
+    },
+    "description": "A slightly modified version of \"Business Day Calculator\" mainly created to resolve issues in the existing plugin.",
+    "image": "//meta-q.cdn.bubble.io/f1746949235157x488466597948546300/icon-business-days.png",
+    "license": "open_source",
+    "name": "Calculate Business Days - Simple",
+    "plugin_instructions": "Define the initial date to start from and the amount of business days you would like to add.",
+    "sa_node_version": 18
+}
