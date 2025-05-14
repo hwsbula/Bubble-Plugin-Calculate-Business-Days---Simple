@@ -1,7 +1,7 @@
 function(properties, context) {
 
-	const initial_date = new Date(properties.initial_date); // Create a new Date object from the input to avoid modifying the original
-	const business_days = properties.business_days;
+	const initial_date = new Date(properties.start_date); // Create a new Date object from the input to avoid modifying the original
+	const business_days = properties.add_days;
 	let days_accounted_for = 0;
 	let current_date = new Date(initial_date); // Start with the initial date
 
