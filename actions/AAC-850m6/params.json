@@ -15,21 +15,6 @@
             "name": "add_days",
             "rank": 1,
             "value": "number"
-        },
-        "AAH": { 
-            "caption": "Manually add holiday dates",
-            "editor": "DynamicValue",
-            "name": "manual_holiday_dates",
-            "rank": 2, 
-            "value": "date",
-            "is_list": true
-        },
-        "AAI": { 
-            "caption": "Include common US holidays?",
-            "editor": "Checkbox",
-            "name": "include_common_us_holidays",
-            "rank": 3, 
-            "value": "boolean" 
         }
     },
     "return_value": {
