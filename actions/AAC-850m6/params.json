@@ -15,6 +15,21 @@
             "name": "add_days",
             "rank": 1,
             "value": "number"
+        },
+        "AAH": { // New field for manually added holiday dates
+            "caption": "Manually add holiday dates",
+            "editor": "DynamicValue", // Allows selecting dates using Bubble's date picker
+            "name": "manual_holiday_dates",
+            "rank": 2, // Determines the order of fields in the settings
+            "value": "date",
+            "is_list": true // Allows the developer to add multiple dates
+        },
+        "AAI": { // New field for including common US holidays
+            "caption": "Include common US holidays?",
+            "editor": "Checkbox", // Provides a simple yes/no checkbox
+            "name": "include_common_us_holidays",
+            "rank": 3, // Determines the order of fields
+            "value": "boolean" // Stores the value as true (checked) or false (unchecked)
         }
     },
     "return_value": {
